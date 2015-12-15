@@ -4,4 +4,21 @@ Login_Password=.//*[@id='DoctorHeaderLoginForm']/div[1]/div[2]/label/input
 Login_Login_Button=.//*[@id='DoctorHeaderLoginForm']/button
 Login_Forgot_Password=.//*[@id='DoctorHeaderLoginForm']/div[2]/a
 Login_Join_Button=.//*[@id='DoctorHeaderLoginForm']/a
+Login_Join_The_Community_Button=.//*[@id='container']/div[3]/a
+Login_GeneralDentist_Button=.//*[@id='popup_doctor_type']/div/div[1]/input
+Login_Specialist_Button=.//*[@id='popup_doctor_type']/div/div[2]/input
+Login_Close_Button=.//*[@id='home_pop_close']/img
+
+
+#Register Page 1 General Dentist
+Providers_Name_GD=.//*[@id='doctorFullName']
+Can't_Find_Click_Here=.//*[@id='DoctorRegisterForm']/div[1]/div/div[3]/a
+GD_Email_Address=.//*[@id='DoctorLoginEmail']
+GD_Confirm_Email_Address=.//*[@id='DoctorRegisterForm']/div[1]/div/div[4]/div/div[2]/div/input
+GD_Password=.//*[@id='DoctorPassword']
+GD_Confirm_PAssword=.//*[@id='DoctorRegisterForm']/div[1]/div/div[5]/div/div[2]/div/input
+GD_I_Agree_Checkbox=.//*[@id='thing']
+GD_Terms_Conditions=.//*[@id='DoctorRegisterForm']/div[1]/div/div[7]/a[1]
+GD_Privacy_Policy=.//*[@id='DoctorRegisterForm']/div[1]/div/div[7]/a[2]
+GD_Continue_Button=.//*[@id='DoctorRegisterForm']/div[2]/div/a
 
