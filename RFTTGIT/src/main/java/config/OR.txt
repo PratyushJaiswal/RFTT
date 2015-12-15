@@ -1,0 +1,7 @@
+#Login Page 
+Login_Email_Address=.//*[@id='loginemailadress']
+Login_Password=.//*[@id='DoctorHeaderLoginForm']/div[1]/div[2]/label/input
+Login_Login_Button=.//*[@id='DoctorHeaderLoginForm']/button
+Login_Forgot_Password=.//*[@id='DoctorHeaderLoginForm']/div[2]/a
+Login_Join_Button=.//*[@id='DoctorHeaderLoginForm']/a
+
