@@ -122,6 +122,68 @@ GooglePlus=.//*[@id='Sociallink3UrlLink']
 Social_Back_Button=.//*[@id='social_wrapper']/div[2]/div/a[1]
 Socila_Finish_Button=.//*[@id='social_wrapper']/div[2]/div/a[2]
 
+#MyReferrals
+Search_Box=.//*[@id='container']/div[1]/div[2]
+From=.//*[@id='FilterFromDate']
+FromSelectDate=html/body/div[7]/div[1]/div[2]/table/tbody/tr[3]/td[4]/div
+To=.//*[@id='FilterToDate']
+ToSelectDate=html/body/div[8]/div[1]/div[2]/table/tbody/tr[3]/td[4]/div
+SortBy=.//*[@id='sbSelector_73765392']
+SortByDate=.//*[@id='sbOptions_73765392']/li[1]/a
+SortByStatus=.//*[@id='sbOptions_73765392']/li[2]/a
+SelectAll=.//*[@id='container']/div[2]/div[1]/a[1]
+UnSelectAll=.//*[@id='container']/div[2]/div[1]/a[2]
+Archive=.//*[@id='archiveIt']
+ViewArchivedRecievedReferrals=.//*[@id='container']/div[2]/div[1]/div[1]/a
+ViewSendReferrals=.//*[@id='container']/div[2]/div[1]/div[2]/a
+Profile_Completion=.//*[@id='container']/div[3]/div[3]/h5/a
+Refer_a_patient=.//*[@id='container']/div[3]/div[5]/div/a[1]
+Search_for_Specilaist=.//*[@id='container']/div[3]/div[5]/div/a[2]
+Search_for_GD=.//*[@id='container']/div[3]/div[5]/div/a[3]
+GD_Connections=.//*[@id='container']/div[3]/div[7]/h5[1]/a
+SD_Connection=.//*[@id='container']/div[3]/div[7]/h5[3]/a
+Traeted_Patient=.//*[@id='container']/div[3]/div[7]/h5[4]/a
+Settings_Icon=.//*[@id='settings_icn']
+Settings_CloseIcon=.//*[@id='container']/div[3]/div[10]/a/img
+
+#Refer a Patient #Make a Referral
+
+#PatientInformation
+Patient_FirstName=.//*[@id='PatientFirstName']
+Patient_LastName=.//*[@id='PatientLastName']
+Patient_PhoneNumber=.//*[@id='PatientMobile']
+Patient_Email_Address=.//*[@id='PatientEmailId']
+Patient_Continue_Button=.//*[@id='ReferralReferForm-next-0']
+
+#Specilaist and Procedure
+SP_Back_Button=.//*[@id='ReferralReferForm-back-1']
+SP_Continue_Button=.//*[@id='ReferralReferForm-next-1']
+Select_From_My_Network=.//*[@id='200650']
+Search_For_Specialist=.//*[@id='tab2']/a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
