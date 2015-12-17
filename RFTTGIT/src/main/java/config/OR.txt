@@ -160,16 +160,92 @@ SP_Back_Button=.//*[@id='ReferralReferForm-back-1']
 SP_Continue_Button=.//*[@id='ReferralReferForm-next-1']
 Select_From_My_Network=.//*[@id='200650']
 Search_For_Specialist=.//*[@id='tab2']/a
+Search_Specialist_Name=.//*[@id='specialistName']
+Search_Specilaist_Type=.//*[@id='divsearchSpecialist']/div[1]/div/span/button
+Search_Specialist_Select=.//*[@id='ufd-container']/div[1]/div/div/ul/li[4]
+Search_Specialist_Location_State=.//*[@id='divsearchSpecialist']/div[2]/div/div/div[1]/div/span/button
+Search_Specialist_Location_State_Select=.//*[@id='ufd-container']/div[2]/div/div/ul/li[8]
+Search_Specialist_Location_City=.//*[@id='divsearchSpecialist']/div[2]/div/div/div[2]/div/span/button
+Search_Specilaist_Location_Zipcode=.//*[@id='zipcode']
+Search_Specialist_Dental_Insurance=.//*[@id='divsearchSpecialist']/div[3]/div/div/div[1]/div/span/button
+Search_Specilaist_Dental_Insurance_Select=.//*[@id='ufd-container']/div[4]/div/div/ul/li[7]
+Seacrh_Specialist_Search_Button=.//*[@id='searchSpecialist']
+
+
+#Procedures
+Procedure=.//*[@id='sbToggle_3605295']
+Procedure_Select=.//*[@id='sbOptions_3605295']/li[3]/a
+Select_Tooth_Click=.//*[@id='1']
+Select_Tooth=.//*[@id='16']
+Select_Tooth_Done_Button=.//*[@id='1']/input
+Comments=.//*[@id='comment1']
+Photo_xray_yes=.//*[@id='checkbox_outer']/label[1]/span/div/label
+Photo_UPload=.//*[@id='upload1']/div/div[2]
+Add_Procedure=.//*[@id='addProcedure']/img
+Loader_processing=.//*[@id='container']/div[1]/span
+
+#Confirmation
+Confirmation_Back_Button=.//*[@id='ReferralReferForm-back-2']
+Confirmation_ReferThatTooth_Button=.//*[@id='ReferralReferForm-back-2']
+Patient_Information_Edit=.//*[@id='ReferralReferForm-step-2']/div/div/div/div[1]/div/div[1]/a
+Specialist_Edit=.//*[@id='ReferralReferForm-step-2']/div/div/div/div[2]/div/div[1]/a
+Procesures_Edit=.//*[@id='ReferralReferForm-step-2']/div/div/div/div[3]/div/div[1]/a
+Print_Referral_Button=.//*[@id='referral_complete']/div[2]/div[2]/a[1]
+Finish_Button=.//*[@id='referral_complete']/div[2]/div[2]/a[2]
+
+#MyNetwork
+MyNetwork=.//*[@id='container']/div[1]/div[1]/ul/li[2]/a/span
+View_My_Network=.//*[@id='network_link']/a
+Remove_From_Network=.//*[@id='network_wrapper']/div[2]/ul/li[2]/span[4]/a[2]/img
+View_Profile=.//*[@id='network_wrapper']/div[2]/ul/li[2]/span[4]/a[1]/img
+View_Map=.//*[@id='fancybutton']
+Close_Map=html/body/div[9]/div/div/a
+Add_A_Connection=.//*[@id='connection_link']/a
+Search_for_GD_Add=.//*[@id='connection_wrapper']/div/div/div/div[1]/a
+Send_Invitation_To=.//*[@id='NetworkDentalEmail']
+Send_Invitation_Button=.//*[@id='connection_wrapper']/div/div/div/div[2]/div[3]/a
+View_Profile_After_Search=.//*[@id='connection_profile']/a[2]
+Add_To_My_Network=.//*[@id='connection_profile']/a[2]
 
 
 
+#MyProfile
+MyProfile=.//*[@id='container']/div[1]/div[1]/ul/li[3]/a/span
+MyProfile_DentalConnections=.//*[@id='container']/div[2]/div[2]/div[2]/div[2]/a
+MyProfile_Edit=.//*[@id='container']/div[2]/div[2]/div[2]/a
+MyProfile_ViewMap=.//*[@id='fancybutton']
+MyProfile_CloseMap=html/body/div[9]/div/div/a
 
 
+#MyAccount
+Account_First_Name=.//*[@id='DoctorFirstName']
+Account_Last_Name=.//*[@id='DoctorLastName']
+Account_New_Email_Address=.//*[@id='DoctorLoginEmail']
+Account_Confirm_New_Email=.//*[@id='DoctorConfirmLoginEmail']
+Account_Notification_Email=.//*[@id='DoctorNotificationEmailid']
+Account_Notification_Confirm_Email=.//*[@id='DoctorConfirmNotificationEmailid']
+Account_New_Password=.//*[@id='DoctorNewPassword']
+Account_Confirm_New_Password=.//*[@id='DoctorConfirmPassword']
+Account_Current_Password=.//*[@id='DoctorMyPassword']
+Account_Submit_Button=.//*[@id='updatemyaccount']
+
+Logout=.//*[@id='myprofile_header']/div/div[2]/ul/li[4]/a
+
+#Notifications
+Notifications_FromDate=.//*[@id='FromDateCal']/img
+Notifications_ToDate=.//*[@id='ToDateCal']/img
+Notifications_SortBy=.//*[@id='sbToggle_44880532']
+Notifications_Search_Button=.//*[@id='ReferralNotificationsForm']/div[2]/a[1]
+Notifications_View_Button=.//*[@id='ReferralNotificationsForm']/div[2]/a[1]
+Notifications_Select_All=.//*[@id='container']/div[3]/div[1]/a[1]
+Notifications_Unselect_All=.//*[@id='container']/div[3]/div[1]/a[2]
+Notifications_Update_Status=.//*[@id='updatestatus']
 
 
-
-
-
+#ForgotPassword
+ForgotPassword=.//*[@id='DoctorHeaderLoginForm']/div[2]/a
+Forgot_Email=.//*[@id='ForgotLoginForm']/div[2]/div/input
+Forgot_Email_Sumit=.//*[@id='ForgotLoginForm']/div[3]/input
 
 
 
