@@ -1,5 +1,5 @@
 import org.testng.annotations.Test;
-import RFTTGIT.config;
+import config.*;
 
 public class login {
 @Test
