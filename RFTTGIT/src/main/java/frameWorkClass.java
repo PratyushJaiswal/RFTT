@@ -34,6 +34,12 @@ public class frameWorkClass {
 		loginPage.clickLoginButton();
 	}
 	
+	/*@Test
+	public void T1(){
+		loginPage.insertUserName("daiel");
+		loginPage.clickForgotPassword();
+	}*/
+	
 	@AfterClass
 	public void afterClass(){
 		driver.quit();
