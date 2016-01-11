@@ -36,8 +36,7 @@ public class frameWorkClass {
 	
 	/*@Test
 	public void T1(){
-		loginPage.insertUserName("daiel");
-		loginPage.clickForgotPassword();
+		loginPage.insertUserName("dail")
 	}*/
 	
 	@AfterClass

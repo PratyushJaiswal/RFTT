@@ -6,7 +6,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
 
-public class OpenBrowser {
+/*public class OpenBrowser {
 	
 	WebDriver driver ;
 	
@@ -23,4 +23,4 @@ public void closeBrowser(){
 	driver.quit();
 }
 
-}
+}*/

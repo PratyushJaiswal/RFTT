@@ -11,7 +11,6 @@
       <class name="frameWorkClass">
         <methods>
           <include name="login"/>
-          <include name="beforeClass"/>
         </methods>
       </class> <!-- frameWorkClass -->
     </classes>

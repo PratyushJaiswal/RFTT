@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import config.*;
 
-public class login extends OpenBrowser{
+/*public class login extends OpenBrowser{
 @Test
 public login() throws IOException{
 	FileInputStream fis = new FileInputStream(constansts.Path_OR);
@@ -19,5 +19,5 @@ public login() throws IOException{
 	  
 	driver.findElement(By.xpath(p.getProperty("Login_Email_Address"))).sendKeys("daniel@yopmail.com");
 	driver.findElement(By.xpath(p.getProperty("Login_Password")));
-}
+}*/
 }
